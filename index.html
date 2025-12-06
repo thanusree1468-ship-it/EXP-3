@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2 class="title">Event Registration Form</h2>
+
+<div class="form-box">
+
+    <form>
+
+        <div class="input-group">
+            <label>Name</label>
+            <input type="text" placeholder="Enter your name" required>
+        </div>
+
+        <div class="input-group">
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="input-group">
+            <label>Select Event</label>
+            <select required>
+                <option value="">Choose an event</option>
+                <option>Workshop</option>
+                <option>Seminar</option>
+                <option>Hackathon</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <label>Preferences</label>
+
+            <div class="checkboxes">
+                <label><input type="checkbox"> Morning Session</label>
+                <label><input type="checkbox"> Afternoon Session</label>
+                <label><input type="checkbox"> Receive Updates</label>
+            </div>
+        </div>
+
+        <button type="submit">Register</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
